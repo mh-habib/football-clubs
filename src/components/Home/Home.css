@@ -1,0 +1,8 @@
+.background-image{
+    background-image: url("https://www.thesportsdb.com/images/media/team/stadium/w1anwa1588432105.jpg");
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

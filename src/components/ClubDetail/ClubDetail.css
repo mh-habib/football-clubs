@@ -1,0 +1,22 @@
+.detail-top-batch{
+    width: 150px;
+}
+.team-img{
+    width: 350px;
+    height: 200px;
+}
+.text-font a{
+    text-decoration: none;    
+}
+.home-icon{
+    color: lightgray;
+}
+.facebook-icon{
+    color: #3b5999;
+}
+.twitter-icon{
+    color: #55acee;
+}
+.youTube-icon{
+    color: #cd201f;
+}
