@@ -26,8 +26,7 @@ const ClubDetail = () => {
         backgroundPosition: 'center',
         backgroundRepeat: 'noRepeat',
         backgroundSize: 'cover',
-        backgroundBlendMode: 'darken',
-        backgroundBlendMode: '2.'
+        backgroundBlendMode: 'darken'
     }
 
     return (
@@ -61,9 +60,9 @@ const ClubDetail = () => {
                 </div>
                 <div className="d-flex justify-content-center font-weight-bold pb-5 text-font">
                     <a href="/home"><span className="p-2 home-icon"><FontAwesomeIcon icon={faHome} size="2x" /></span></a>
-                    <a href="https://www.facebook.com" target="_blank"><span className="p-2 facebook-icon"><FontAwesomeIcon icon={faFacebook} size="2x" /></span></a>
-                    <a href="https://www.twitter.com" target="_blank"><span className="p-2 twitter-icon"><FontAwesomeIcon icon={faTwitter} size="2x" /></span></a>
-                    <a href="https://www.youtube.com" target="_blank"><span className="p-2 youTube-icon"><FontAwesomeIcon icon={faYoutube} size="2x" /></span></a>
+                    <a href="https://www.facebook.com"><span className="p-2 facebook-icon"><FontAwesomeIcon icon={faFacebook} size="2x" /></span></a>
+                    <a href="https://www.twitter.com"><span className="p-2 twitter-icon"><FontAwesomeIcon icon={faTwitter} size="2x" /></span></a>
+                    <a href="https://www.youtube.com"><span className="p-2 youTube-icon"><FontAwesomeIcon icon={faYoutube} size="2x" /></span></a>
                 </div>
             </div>
 

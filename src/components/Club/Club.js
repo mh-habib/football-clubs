@@ -5,7 +5,7 @@ import './Club.css'
 import { useHistory } from 'react-router';
 
 const Club = (props) => {
-    const { strTeam, strTeamBadge, idTeam} = props.club;
+    const { strTeam, strTeamBadge, idTeam } = props.club;
     const history = useHistory();
     const handleClick = (id) => {
         history.push(`/club/${id}`);
@@ -18,7 +18,7 @@ const Club = (props) => {
                 <p className="card-text">Sports Type: Football</p>
             </div>
             <div className="card-footer bg-white text-center border-0 pb-3">
-                <button onClick={()=>handleClick(idTeam)} className="btn btn-primary btn-sm btn-block"> Explore <FontAwesomeIcon icon={faArrowRight}/> </button>
+                <button onClick={() => handleClick(idTeam)} className="btn btn-primary btn-sm btn-block"> Explore <FontAwesomeIcon icon={faArrowRight} /> </button>
             </div>
         </div>
     );
