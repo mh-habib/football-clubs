@@ -6,6 +6,7 @@ import { useParams } from 'react-router';
 import './ClubDetail.css';
 import maleTeamImg from './../../Photo/male.png';
 import femaleTeamImg from './../../Photo/female.png';
+import { Link } from 'react-router-dom';
 
 
 const ClubDetail = () => {
@@ -59,7 +60,7 @@ const ClubDetail = () => {
                     <p>{strStadiumDescription}</p>
                 </div>
                 <div className="d-flex justify-content-center font-weight-bold pb-5 text-font">
-                    <a href="/home"><span className="p-2 home-icon"><FontAwesomeIcon icon={faHome} size="2x" /></span></a>
+                    <Link to="/home"><span className="p-2 home-icon"><FontAwesomeIcon icon={faHome} size="2x" /></span></Link>
                     <a href="https://www.facebook.com"><span className="p-2 facebook-icon"><FontAwesomeIcon icon={faFacebook} size="2x" /></span></a>
                     <a href="https://www.twitter.com"><span className="p-2 twitter-icon"><FontAwesomeIcon icon={faTwitter} size="2x" /></span></a>
                     <a href="https://www.youtube.com"><span className="p-2 youTube-icon"><FontAwesomeIcon icon={faYoutube} size="2x" /></span></a>

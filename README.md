@@ -9,5 +9,5 @@ Here we Load several teams from an API of a league at home page, and Show detail
 ### FontAwesome icons
 ### Conditional Rendering
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Live Site: [https://brave-nightingale-b32458.netlify.app/](https://brave-nightingale-b32458.netlify.app/)
 # react-router-mh-habib
